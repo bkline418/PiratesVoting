@@ -15,6 +15,8 @@
 		B7007F872424FA5F0037F05F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B7007F852424FA5F0037F05F /* LaunchScreen.storyboard */; };
 		B7007F922424FA5F0037F05F /* Messner_In_Class_PollTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7007F912424FA5F0037F05F /* Messner_In_Class_PollTests.swift */; };
 		B7007F9D2424FA5F0037F05F /* Messner_In_Class_PollUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7007F9C2424FA5F0037F05F /* Messner_In_Class_PollUITests.swift */; };
+		B7007FAB2424FBBB0037F05F /* VotingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7007FAA2424FBBB0037F05F /* VotingViewController.swift */; };
+		B7007FAD2424FC080037F05F /* TBViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7007FAC2424FC080037F05F /* TBViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +51,8 @@
 		B7007F982424FA5F0037F05F /* Messner In Class PollUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Messner In Class PollUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		B7007F9C2424FA5F0037F05F /* Messner_In_Class_PollUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Messner_In_Class_PollUITests.swift; sourceTree = "<group>"; };
 		B7007F9E2424FA5F0037F05F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B7007FAA2424FBBB0037F05F /* VotingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VotingViewController.swift; sourceTree = "<group>"; };
+		B7007FAC2424FC080037F05F /* TBViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TBViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,6 +107,8 @@
 				B7007F7C2424FA5C0037F05F /* SceneDelegate.swift */,
 				B7007F7E2424FA5C0037F05F /* ViewController.swift */,
 				B7007F802424FA5C0037F05F /* Main.storyboard */,
+				B7007FAC2424FC080037F05F /* TBViewController.swift */,
+				B7007FAA2424FBBB0037F05F /* VotingViewController.swift */,
 				B7007F832424FA5F0037F05F /* Assets.xcassets */,
 				B7007F852424FA5F0037F05F /* LaunchScreen.storyboard */,
 				B7007F882424FA5F0037F05F /* Info.plist */,
@@ -259,9 +265,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B7007FAD2424FC080037F05F /* TBViewController.swift in Sources */,
 				B7007F7F2424FA5C0037F05F /* ViewController.swift in Sources */,
 				B7007F7B2424FA5C0037F05F /* AppDelegate.swift in Sources */,
 				B7007F7D2424FA5C0037F05F /* SceneDelegate.swift in Sources */,
+				B7007FAB2424FBBB0037F05F /* VotingViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
